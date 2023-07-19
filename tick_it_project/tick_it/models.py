@@ -15,9 +15,9 @@ class Event(models.Model):
     event_name =  models.CharField(max_length=100)
     venue_name = models.ForeignKey(Venue, on_delete=models.CASCADE, related_name='events')
     event_type = models.CharField(max_length=100)
-    event_description = models.TextField(max_length=300)
-    event_date = models.CharField(max_length=50)
-    event_time = models.CharField(max_length=50)
+    event_description = models.TextField(max_length=500)
+    event_date = models.DateField()
+    event_time = models.TimeField()
     ticket_price = models.PositiveIntegerField()
     ticket_quantity = models.PositiveIntegerField()
 
