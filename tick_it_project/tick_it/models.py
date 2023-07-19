@@ -18,7 +18,7 @@ class Event(models.Model):
     event_description = models.TextField(max_length=500)
     event_date = models.DateField()
     event_time = models.TimeField()
-    ticket_price = models.PositiveIntegerField()
+    ticket_price = models.DecimalField(max_digits=10, decimal_places=2)
     ticket_quantity = models.PositiveIntegerField()
 
     def __str__(self):
