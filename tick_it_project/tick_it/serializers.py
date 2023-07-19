@@ -6,7 +6,7 @@ class EventSerializer(serializers.HyperlinkedModelSerializer):
  
     class Meta:
         model = Event
-        fields = ('event_name', 'venue_name', 'event_type', 'event_description', 'event_date', 'event_time', 'event_price', 'ticket_quantity' )
+        fields = ('event_name', 'venue_name', 'event_type', 'event_description', 'event_date', 'event_time', 'ticket_price', 'ticket_quantity' )
 
 
 
