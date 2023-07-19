@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "92957b2d13a0c4e7faf8553e0a2da495ed2485601b6484021df34a38cde1a183"
+            "sha256": "615ee5d3338a58c52227059d30fa57301e4587d642430fc126ed77dee1f5e424"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -41,12 +41,8 @@
             "version": "==3.14.0"
         },
         "gunicorn": {
-            "hashes": [
-                "sha256:3213aa5e8c24949e792bcacfc176fef362e7aac80b76c56f6b5122bf350722f0",
-                "sha256:88ec8bff1d634f98e61b9f65bc4bf3cd918a90806c6f5c48bc5603849ec81033"
-            ],
-            "index": "pypi",
-            "version": "==21.2.0"
+            "git": "https://github.com/benoitc/gunicorn.git",
+            "ref": "ab9c8301cb9ae573ba597154ddeea16f0326fc15"
         },
         "packaging": {
             "hashes": [
