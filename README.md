@@ -1,4 +1,4 @@
-# Tick-iT - the Django Full Stack Event App -- BackEnd
+# Tick-iT: Full Stack Event App _(Back End)_
 
 ## Description
 Tick-iT is a full stack web app built using a Django RESTful API on the back-end and React.js on the front-end.
