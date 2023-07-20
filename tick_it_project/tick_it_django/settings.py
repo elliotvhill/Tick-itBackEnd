@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'tick_it',
         'USER': 'tickituser',
         'PASSWORD': 'tickit',
-        'HOST': 'localhost'
+        'HOST': 'stampy.db.elephantsql.com'
     }
 }
 
