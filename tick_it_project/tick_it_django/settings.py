@@ -77,23 +77,15 @@ WSGI_APPLICATION = 'tick_it_django.wsgi.application'
 
 # Database
 
-if DEVELOPMENT_MODE is True:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'tick_it',
-            'USER': 'tickituser',
-            'PASSWORD': 'tickit',
-            'HOST': 'localhost'
-        }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tick_it',
+        'USER': 'tickituser',
+        'PASSWORD': 'tickit',
+        'HOST': 'localhost'
     }
-elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
-    if os.getenv("DATABASE_URL", None) is None:
-        raise Exception("DATABASE_URL environment variable not defined")
-    DATABASES = {
-        "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
-    }
-
+}
 
 # Password validation
 
