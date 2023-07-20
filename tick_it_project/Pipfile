@@ -4,14 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==4.2.3"
-psycopg2-binary = "==2.9.6"
+django = "*"
+psycopg2-binary = "*"
 djangorestframework = "==3.14.0"
 asgiref = "==3.7.2"
 packaging = "==23.1"
 pytz = "==2023.3"
 sqlparse = "==0.4.4"
 gunicorn = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
