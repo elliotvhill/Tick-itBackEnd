@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
+ALLOWED_HOSTS = []
 
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 
@@ -82,8 +82,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tick_it',
-        'USER': 'tickituser',
-        'PASSWORD': 'tickit',
+        'USER': 'ykurnsfa',
+        'PASSWORD': 'iLhlG6kQ3PtOug5qGImxdbkNm9NQ2Wkr',
         'HOST': 'localhost'
     }
 }
