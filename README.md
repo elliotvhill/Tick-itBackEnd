@@ -8,6 +8,7 @@ Users can view events and venues in their area, and add and purchase tickets usi
 - Ashlan Filbrun: [https://github.com/ashfilbrun](https://github.com/ashfilbrun)
 - Elliot Hill: [https://github.com/elliotvhill](https://github.com/elliotvhill)
 - Tsion Molla: [https://github.com/Tsion-oss](https://github.com/Tsion-oss)
+- _**BIG** special thanks to [Kevin Li](https://github.com/kevinleet)!_
 
 ## Resources
 - [Trello board](https://trello.com/b/BBSNESHE/tick-it-full-stackathon-trello)
