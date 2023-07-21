@@ -16,6 +16,7 @@ dj-database-url = "*"
 python-dotenv = "*"
 whitenoise = "*"
 psycopg2 = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
