@@ -82,9 +82,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tick_it',
-        'USER': 'ykurnsfa',
-        'PASSWORD': 'iLhlG6kQ3PtOug5qGImxdbkNm9NQ2Wkr',
-        'HOST': 'stampy.db.elephantsql.com'
+        'USER': 'tickituser',
+        'PASSWORD': 'tickit',
+        'HOST': 'localhost'
     }
 }
 
