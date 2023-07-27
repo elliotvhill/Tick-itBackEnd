@@ -11,6 +11,7 @@ Users can view events and venues in their area, and add and purchase tickets usi
 - _**BIG** special thanks to [Kevin Li](https://github.com/kevinleet)!_
 
 ## Resources
+- [Link to front-end repo](https://github.com/ashfilbrun/Tick-itFrontEnd)
 - [Trello board](https://trello.com/b/BBSNESHE/tick-it-full-stackathon-trello)
 - [Entity Relation Diagram](https://drive.google.com/file/d/19qQSasc2r3BXgyeW38QzjbCNFugeRScI/view?usp=sharing)
 - [Component Hierarchy Diagram](#)
